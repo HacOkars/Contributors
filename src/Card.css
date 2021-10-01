@@ -2,14 +2,15 @@
     margin: 32px 32px 32px 0;
     padding: 24px;
     width: 300px;
-    background-color: #FFE5B4;
-    box-shadow: 0 0 28px 4px rgb(218, 3, 3);
-    transition: transform .3s ease;
+    box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.698);
+    transition: transform .3s .1s ease-in-out;
     border-radius: 8px;
 }
 
 .card:hover {
     transform: scale(1.1);
+    box-shadow: 1px 2px 16px rgb(5, 255, 242);
+    background: linear-gradient(to bottom, #39cbf0, rgba(19, 150, 226, 0.8));
 }
 
 .card_title {
@@ -24,14 +25,17 @@
 
 .card_image img {
     border-radius: 50%;
+    box-shadow: 0 1px 8px rgb(15, 15, 15);
     width: 80px;
 }
 
 p {
+    color: #f6680a;
     font-weight: 600;
     font-size: 14px;
 }
 
 a {
     text-decoration: none;
+    color: #c20a0a;
 }
