@@ -1,0 +1,37 @@
+.card {
+    margin: 32px 32px 32px 0;
+    padding: 24px;
+    width: 300px;
+    background-color: #FFE5B4;
+    box-shadow: 0 0 28px 4px rgb(218, 3, 3);
+    transition: transform .3s ease;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card_title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.card_image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_image img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
