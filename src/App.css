@@ -9,10 +9,12 @@
 
 .App {
     padding: 64px;
-    background: linear-gradient(to right, #0077ff, #85edff);
-    color: rgb(55, 0, 253);
+    background: repeating-linear-gradient(45deg,#ffafbd 10% ,#a0ffd3 92%);
+    color: rgb(55, 100, 253);
 }
-
+a{
+    color:white;
+}
 img {
     float: right;
 }
