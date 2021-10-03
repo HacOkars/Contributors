@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" id="hacktober"></img></a>
-      <h1>Contributors Cards</h1>
+      <h1>Contributors Cards :</h1>
       <input className="search-box" onInput={filterCards} placeholder="Search..." />
       <div className="cards-container">
 

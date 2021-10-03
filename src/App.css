@@ -22,7 +22,10 @@ img {
 }
 
 h1 {
-    color: rgb(255, 255, 0);
+    color: #FAED26;
+    font-size: 38px;
+    text-decoration: underline;
+    margin-top: -10px;
 }
 
 .cards-container {
@@ -32,7 +35,7 @@ h1 {
 
 .search-box {
     outline: none;
-    width: fit-content;
+    width: 314px;
     border: 1px solid rgb(240, 4, 4);
     font-size: 16px;
     padding: 16px;

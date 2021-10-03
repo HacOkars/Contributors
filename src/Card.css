@@ -15,6 +15,7 @@
 .card_title {
     font-weight: 800;
     font-size: 24px;
+    color: #2D5F5D;
 }
 
 .card_image {
@@ -30,8 +31,10 @@
 p {
     font-weight: 600;
     font-size: 14px;
+    color: #265077;
 }
 
-a {
+.card_title a {
     text-decoration: none;
+    color: #026670;
 }
