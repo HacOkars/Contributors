@@ -24,7 +24,9 @@ img {
 }
 
 h1 {
-    color: rgb(255, 255, 0);
+    color: rgb(240, 4, 4);
+    text-decoration: underline;
+    font-size: 38px;
 }
 
 .cards-container {
