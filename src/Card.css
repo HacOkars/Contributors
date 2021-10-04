@@ -10,9 +10,10 @@
     border-radius: 8px;
     color:whitesmoke;
 }
-
+/**/
 .card:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 28px 4px #8DB600;
 }
 
 .card_title {
@@ -20,7 +21,7 @@
     font-size: 24px;
     position: relative;
     top:0px;
-   left:60px;
+    text-align: center;
 }
 
 .card_image {
@@ -45,7 +46,7 @@ p {
     font-size: 23px;
     color:whitesmoke;
     position: relative;
-    left: 16px;
+    left: 9px;
     bottom:113px;
     background-color:transparent;
     
@@ -69,4 +70,33 @@ p {
    .card_title a{
        right:62px;
    }
+}
+@media only screen and (max-width:400px){
+   p{
+       left: 15%;
+       bottom:0px;
+       top: 13px;
+       font-size: 16px;
+       position: relative;
+   }
+   .card_title a{
+        top: 25px;
+        left: 0px;
+       
+       font-size: 18px;
+       position: relative;
+   }
+   .card_image img {
+    border-radius: 30%;
+    width: 90px;
+    height: 90px;
+    left: -24%;
+    position:  relative;
+    /* border-left-width: 10px;
+    border-color:black ; */
+    /* z-index: 10; */
+
+}
+
+
 }
